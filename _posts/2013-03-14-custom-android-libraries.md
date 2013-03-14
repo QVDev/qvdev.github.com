@@ -29,6 +29,5 @@ private void test()
         mListContent.setKinectic(true); //For kinectic animation      
 }
 {% endhighlight %}
-Source code can be found here:<br>
-<a href="https://github.com/QVDev/QVListLibraries/" target="_blank">QVListLibraries on GitHub</a>
+Source code can be found here: <a href="https://github.com/QVDev/QVListLibraries/" target="_blank">QVListLibraries on GitHub</a>
 <!-- more end -->
