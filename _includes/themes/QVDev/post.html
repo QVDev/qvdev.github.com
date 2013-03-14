@@ -8,32 +8,14 @@
     <div id="container"> 
       <header class="group">
         <h1 class="logo"><a href="/">QVDev Blog</a></h1>
+        {% include JB/profile_widgets %}
       </header>
       <div id="content">      		
         <section id="main" class="group">
         	<u><b>{{page.title}}</b></u><span class="post-date"> &raquo; {{ page.date | date_to_string }} tags:{{page.tags}}</span>
           	{{ content }}
           <div>
-			{{% if page.comments %}}
-			<header class="group">
-	      </header>
-
-			<div id="disqus_thread"></div>
-    			<script type="text/javascript">
-		        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-        		var disqus_shortname = 'qvdevblog'; // required: replace example with your forum shortname
-
-		        /* * * DON'T EDIT BELOW THIS LINE * * */
-        		(function() {
-	            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        	    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		        })();
-			    </script>
-			    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-    	
-			{{% endif %}}
+          {% include JB/comments_widget %}
 			<br>	             
 			<a href="/">Back Home</a>
           </div>
@@ -41,9 +23,7 @@
       </div>      
      
     </div>
-<script src="//static.getclicky.com/js" type="text/javascript"></script>
-<script type="text/javascript">try{ clicky.init(100590749); }catch(e){}</script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/100590749ns.gif" /></p></noscript>
+	{% include JB/getclicky_widget %}
   </body>
 </html>
 
