@@ -14,7 +14,7 @@
         	<u><b>{{page.title}}</b></u><span class="post-date"> &raquo; {{ page.date | date_to_string }} tags:{{page.tags}}</span>
           	{{ content }}
           <div>
-			% if page.comments %
+			{{% if page.comments %}}
 			<div id="disqus_thread"></div>
     			<script type="text/javascript">
 		        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -30,7 +30,8 @@
 			    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     			<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     	
-			% endif %	             
+			{{% endif %}}
+			<br>	             
 			<a href="/">Back Home</a>
           </div>
         </section>
