@@ -13,6 +13,7 @@
       <div id="content">      		
         <section id="main" class="group">
         	<u><b>{{page.title}}</b></u><span class="post-date"> &raquo; {{ page.date | date_to_string }} tags:{{page.tags}}</span>
+        	<br>        	
           	{{ content }}
           <div>
           {% include JB/comments_widget %}
