@@ -3,6 +3,7 @@ layout: post
 title: "Custom Android Libraries"
 description: ""
 category: "android"
+comments: true
 tags: ["android, libraries"]
 ---
 {% include JB/setup %}
