@@ -1,4 +1,5 @@
 pygments: true
+future: false
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use.
