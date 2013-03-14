@@ -51,7 +51,8 @@ pre code {
   /* bump down global font size. */
   font-size: .95em;
   margin: 0 auto;
-  width: 600px;
+  width: auto;
+  max-width:600px
 }
 
 #content {
