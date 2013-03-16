@@ -11,5 +11,5 @@ tags: ["android, jenkins, continous integration"]
 
 <br><br>
 <!-- more start -->
-
+More text
 <!-- more end --> 
