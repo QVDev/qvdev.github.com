@@ -17,7 +17,7 @@ comments :
 analytics :
     provider : google
     google :
-        tracking_id : 'UA-33193989-1'                                               
+        tracking_id : 'UA-39366728-1'                                               
     getclicky :
       site_id :
     mixpanel :
