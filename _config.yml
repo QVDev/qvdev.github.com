@@ -13,12 +13,17 @@ comments :
 # Set 'provider' to the analytics provider you want to use.
 # Set 'provider' to false to turn analytics off globally.
 #        
+
 analytics :
-  provider : getclicky
-  getclicky :
-    site_id : 100590749
-    
-    
+    provider : google
+    google :
+        tracking_id : 'UA-33193989-1'                                               
+    getclicky :
+      site_id :
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'    
+
+safe : true    
 
 future:      false
 lsi:         false
