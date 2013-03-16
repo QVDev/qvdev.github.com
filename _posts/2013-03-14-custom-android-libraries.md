@@ -1,4 +1,5 @@
 ---
+date: 2012-12-30 09:14:00 +1000
 layout: post
 title: "Custom Android Libraries"
 description: ""
