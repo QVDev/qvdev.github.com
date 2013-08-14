@@ -13,3 +13,7 @@ Jekyll's project home page:
 The author of Jekyll is Tom Preston-Werner:
 
   http://tom.preston-werner.com/
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/QVDev/qvdev.github.com/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
