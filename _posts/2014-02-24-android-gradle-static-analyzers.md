@@ -84,7 +84,6 @@ or start them straight from Android Studio in the Gradle tasks right side bar.
     gradle pmd
     gradle findbugs
     gradle codenarc
-}
 {% endhighlight %}
 All of the reports can be found in the following directory:
 {% highlight groovy %}
