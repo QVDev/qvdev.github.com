@@ -3,10 +3,9 @@ layout: post
 title: "Android Gradle Static analyzers"
 description: ""
 category: "Android"
-tags: [Android,Gradle,Jenkins,Static,Analyzers]
+tags: [Android, Gradle, Jenkins, Static, Analyzers]
 ---
 {% include JB/setup %}
-
 <br>
 To make sure you're code is good quality there are several static anaylyzers out there you can make use of. 
 In this post I will highlight the most popular ones. I will show you how to configure them for you're Android
