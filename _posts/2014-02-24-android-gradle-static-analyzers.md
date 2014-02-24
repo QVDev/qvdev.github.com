@@ -1,9 +1,11 @@
 ---
+date: 2014-02-24 14:00:00 +1000
 layout: post
 title: "Android Gradle Static analyzers"
 description: ""
-category: "Android"
-tags: [Android, Gradle, Jenkins, Static, Analyzers]
+category: "android"
+comments: true
+tags: ["android, gradle, static, analyzers"]
 ---
 {% include JB/setup %}
 <br>
