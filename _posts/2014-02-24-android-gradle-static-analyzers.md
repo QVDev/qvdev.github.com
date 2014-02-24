@@ -72,6 +72,7 @@ task findbugs(type: FindBugs) {
 {% endhighlight %}
 <b>CodeNarc</b><br>
 {% highlight groovy %}
+task codenarc(type: CodeNarc) {
     source 'src/main/java'
     configFile =  file("config/codenarc/codenarc.xml")
 }
