@@ -92,4 +92,9 @@ All of the reports can be found in the following directory:
 Of course this is just a setup. But from here you can configure the plugins to you're needs. Hopefully this
 will help you to make you're code better quality. Please if you run into any problems or have feedback about the
 blog post. Dont hesitate to leave them at the bottom of the page.
+<br>
+<br>
+After some requests, I added a Github example repository.
+<br>
+<a href="https://github.com/QVDev/AndroidGradlePlugins" target="_blank">View source on Github</a>
 <!-- more end --> 
