@@ -57,7 +57,7 @@ your project for ANT.<br>
 Final step:<br>
 Then presse Apply and Save. This will bring you back to you're job. Now all you have to do is choose build 
 now and you are done!
-
+<a href="intent://scan/#Intent;scheme=zxing;package=com.google.zxing.client.android;end"> Take a QR code </a>
 When the build is successful you can find back the debug .APK that Jenkins has generated, 
 go to workspace and choose bin. project.APK.
 <a href="/assets/images/img1.png" target="_blank"><img src="/assets/images/img1.png" alt="" width="75%" height="75%"></a>
