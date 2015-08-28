@@ -1,8 +1,0 @@
-		<div id="banner"><a href="http://github.com/qvdev" target="_blank">View on Github</a></div>
-        <a href="http://stackoverflow.com/users/1432636/qvdev" id="view-on-stack" class="button-stack" target="_blank">
-		<!-- 		crop image -->
-<!--         <div style="width: 141px; height: 58; overflow: hidden"> -->
-		<img src="http://stackoverflow.com/users/flair/1432636.png?theme=clean" width="208" height="58" alt="profile for QVDev on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for QVDev on Stack Exchange, a network of free, community-driven Q&amp;A sites">
-<!-- 		</div> -->
-		</a>
-<!-- 		        <a href="https://github.com/QVDev" id="view-on-github" class="button" target="_blank"><span>View on GitHub</span></a> -->
